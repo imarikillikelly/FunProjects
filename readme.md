@@ -1,49 +1,58 @@
-**Event Weather Snapshot (C867)**
+🎉 **FunProjects**
 
-One-day weather snapshot for a fixed location and date, aggregated across the previous five years (fetched from the Open-Meteo Historical API and stored locally in SQLite for easy querying).
+ Welcome to FunProjects — my playground for all things data analysis, visualization, scripting, and programming. This repo is my public portfolio, where I showcase hands-on projects that highlight both my technical chops and my curiosity for solving real-world problems with data.
 
-**Language:** Python
+ Each branch in this repo is dedicated to a different project — so think of it like browsing through different “episodes” in an ongoing series.
+ Enjoy! 🍿
 
-**DB:** SQLite (weather.db)
+------------------------------------------------------------------------------------------------------------
 
-**API:** Open-Meteo Historical Weather API
+🔎 **What You’ll Find Here**
 
-**Scope:** One location + one day (anchor year + previous 4 years)
+  * Data Analysis → SQL queries, data cleaning, wrangling, and exploratory analysis.
+  * Visualization → Interactive dashboards, beautiful charts, and storytelling with data.
+  * Scripting → Python, shell scripts, and little utilities I’ve built to make life easier.
+  * Programming → End-to-end projects, applications, and experiments with new tools & libraries.
 
-**What this program does:**
-* Pulls daily mean temperature (°F), daily max wind (mph), and daily precipitation total (in) for chosen month/day in each year of a 5-year window.
-* Computes five-year average/min/max for temperature & wind, plus sum/min/max for precipitation.
-* Saves the aggregated results into a local SQLite table.
-* Reads the row back and prints a summary.
+------------------------------------------------------------------------------------------------------------
 
-The program is intentionally scoped to one fixed location and date (Manvel, TX). The code currently sets these in main.py.
+🗂 **Structure**
 
-**Requirements:**
-* Python 3.10+
-* Internet access (to call the Open-Meteo API)
-* Packages (installed via requirements.txt)
-  * SQLALchemy
-  * requests
+  1. Main Branch → You’re here! Overview + navigation guide.
+  2. Project Branches → Each project has its own branch with:
+  3. 📘 A README explaining the goal, tools, and key takeaways
+  4. 🧮 Code and notebooks
+  5. 📊 Visuals, outputs, or dashboards (when applicable)
 
-**Credits:**
+------------------------------------------------------------------------------------------------------------
 
-Weather data: [Open-Meteo Historical Weather API](https://open-meteo.com/en/docs/historical-weather-api)
-)
+**Languages:** Python, SQL, R, Bash
 
-**Run order:**
+**Tools:** Pandas, NumPy, Matplotlib, Seaborn, Plotly, Tableau
 
-#setup
+**Platforms:** Jupyter, PyCharm, GitHub, Kaggle
 
-`python -m venv .venv`
+------------------------------------------------------------------------------------------------------------
 
-`source .venv/bin/activate`
+🚦 **How to Navigate**
 
-`pip install -r requirements.txt`
+  * Click Branches in GitHub.
+  * Pick a project branch you’re curious about.
+  * Explore the README, dive into the code, and check out the results.
 
-#run the program
+------------------------------------------------------------------------------------------------------------
 
-`python main.py`
+🌟 **Why FunProjects?**
 
-#(optional) run tests
+Because learning shouldn’t be boring.
+Every project here reflects not just technical skills but also creativity, experimentation, and a little bit of chaos magic ✨.
 
-`python -m unittest -v`
+------------------------------------------------------------------------------------------------------------
+
+📬 Let’s Connect
+
+If you like what you see, feel free to fork, star ⭐, or connect with me: [LinkedIn](https://www.linkedin.com/in/imarikillikelly)
+
+------------------------------------------------------------------------------------------------------------
+
+💡 **Tip:** Keep an eye out — I’m always adding new projects, and each one is a little different than the last.
